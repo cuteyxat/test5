@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://use.typekit.net/mbt4tna.css">
+<link rel="stylesheet" href="https://use.typekit.net/bhu4ulz.css">
+<link rel="stylesheet" href="https://use.typekit.net/muj8waj.css">
+<link rel="stylesheet" href="https://use.typekit.net/mrb5dne.css">
+<link rel="stylesheet" href="https://use.typekit.net/kid2tin.css">
+<link rel="stylesheet" href="https://use.typekit.net/zfz5aun.css">
+
+
+
+
+<div class="profile-wrap group-1">
+  <div class="name">This is a test</div>
+  <div class="post-info">
+    <span>summer posted on <a>13 december 2021 at 12:34 pm</a></span>
+    <i class="ri-double-quotes-r"></i>
+    <i class="ri-pencil-line"></i>
+    <i class="ri-delete-bin-6-line"></i>
+  </div>
+  <div class="mini-stick">
+    <div class="mini">
+      <div class="image"></div>
+      <span>26 years old</span>
+      <span>he/him</span>
+      <span>terran-galran</span>
+      <span>black paladin</span>
+      <span>from earth</span>
+    </div>
+  </div>
+  <div class="post">
+    <post>
+       • Test </post>
+	   <post>
+       • Test </post>
+	   <post>
+       • Test </post>
+	   <post>
+       • Test </post>
+	   <post>
+       • Test </post>
+	   <post>
+       • Test </post>
+	   <post>
+       • Test </post>
+	   <post>
+       • Test </post>
+	  
+  </div>
+  <div class="stuff">
+    oops
+  </div>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+		  <title>Test XAT Profile</title>
+           <style>
+		 body {
+  padding: 0px;
+  margin: 0px;
+  background: rgb(var(--maroon));
+  font: var(--sans-body);
+  letter-spacing: var(--sans-body-sp);
+  
+  /*FONTS*/
+  --serif: 'input-serif';
+  --serif-caps: 200 .55rem/1 var(--serif);
+  --serif-caps-sp: 1.5px;
+  --sans: 'input-sans';
+  --sans-body: 400 .8125rem/1.8 var(--sans);
+  --sans-body-sp: .5px;
+  --sans-display: 900 2.5rem/1 var(--display);
+  --sans-display-sp: 1px;
+  --sans-caps: 300 .7rem/1.5 var(--sans);
+  --sans-caps-sp: 1px;
+  --display: 'ethnocentric';
+  
+  /*COLORS*/
+  --clear: rgba(255, 255, 255, 0);
+  --white: 254, 253, 250; /*FEFDFA*/
+  --black: 10, 2, 0; /*0A0200*/
+  --maroon: 32, 3, 0; /*200300*/
+  --purple: 76, 61, 63; /*4C3D3F*/
+  --dark-purple: 48, 39, 40; /*302728*/
+  --teal: 0, 60, 71; /*003C47*/
+  --green: 121, 134, 103; /*798667*/
+  --olive: 56, 45, 9; /*382D09*/
+  --rust: 128, 69, 50; /*804532*/
+  --gold: 175, 136, 88; /*AF8858*/
+  
+  /*GRADIENTS*/
+  
+  /*IMAGES*/
+  --bg1: url('https://images.unsplash.com/photo-1462332420958-a05d1e002413');
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+a { text-decoration: none; }
+
+
+
+.group-1 {
+  --lg1: linear-gradient(to bottom, rgba(var(--gold), .5), rgba(var(--maroon), .5));
+  --lg2: linear-gradient(to bottom, rgba(var(--white), .5), rgba(var(--gold), .5));
+  --lg3: radial-gradient(circle at top left, rgb(var(--rust)), rgb(var(--teal)));
+  --lg3-lr: linear-gradient(to right, rgb(var(--rust)), rgb(var(--teal)));
+}
+
+.group-2 {
+  --lg1: linear-gradient(to bottom, rgba(var(--purple), .5), rgba(var(--maroon), .5));
+  --lg2: linear-gradient(to bottom, rgba(var(--white), .5), rgba(var(--gold), .5));
+  --lg3: radial-gradient(circle at top left, rgb(var(--green)), rgb(var(--rust)));
+  --lg3-lr: linear-gradient(to right, rgb(var(--green)), rgb(var(--rust)));
+}
+
+.group-3 {
+  --lg1: linear-gradient(to bottom, rgba(var(--teal), .5), rgba(var(--maroon), .6));
+  --lg2: linear-gradient(to bottom, rgba(var(--white), .5), rgba(var(--gold), .5));
+  --lg3: radial-gradient(circle at top left, rgb(var(--purple)), rgb(var(--rust)));
+  --lg3-lr: linear-gradient(to right, rgb(var(--purple)), rgb(var(--rust)));
+  --bg1: url('https://images.unsplash.com/photo-1464802686167-b939a6910659');
+}
+
+
+
+.profile-wrap {
+  width: calc(100% - 20vw);
+  min-height: 100px;
+  margin: 2rem auto;
+  padding: 3rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  background: var(--lg1), var(--bg1);
+  background-size: cover;
+  background-position: center;
+  box-shadow:
+    5px 5px 10px rgb(var(--black));
+  display: grid;
+  grid-template-columns: 12rem 1fr;
+  grid-template-rows: auto auto auto auto;
+  grid-template-areas: 
+    '..... name'
+    'mini post'
+    'stuff stuff'
+    '..... pinfo';
+}
+
+.profile-wrap .name {
+  grid-area: name;
+  margin-bottom: 3rem;
+  text-align: center;
+  font: var(--sans-display);
+  letter-spacing: var(--sans-display-sp);
+  text-transform: uppercase;
+  text-stroke: 1px rgba(var(--white), .75);
+  -webkit-text-stroke: 1px rgba(var(--white), .75);
+  color: var(--clear);
+  background: var(--lg3);
+  -webkit-background-clip: text;
+}
+
+.profile-wrap .post-info {
+  grid-area: pinfo;
+  margin: 3rem 0 0 0;
+  text-align: center;
+  font: var(--serif-caps);
+  letter-spacing: var(--serif-caps-sp);
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile-wrap .post-info span {
+  padding: 7px;
+  margin: .25rem;
+  background: var(--lg3-lr);
+  background-attachment: fixed;
+  background-size: 75%;
+  background-position: center right;
+  color: rgba(var(--white), .8);
+}
+.profile-wrap .post-info i {
+  display: inline-block;
+  padding: 5px;
+  margin: .25rem;
+  background: var(--lg3-lr);
+  background-attachment: fixed;
+  background-size: 75%;
+  background-position: center right;
+  color: rgba(var(--white), .8);
+  font-size: .8rem;
+}
+
+.profile-wrap .mini-stick {
+  grid-area: mini;
+  position: relative;
+}
+
+.profile-wrap .mini-stick .mini {
+  position: sticky;
+  top: 2rem;
+  font: var(--serif-caps);
+  letter-spacing: var(--serif-caps-sp);
+  text-transform: uppercase;
+}
+.profile-wrap .mini-stick .mini span {
+  display: block;
+  width: fit-content;
+  width: -moz-fit-content;
+  margin: .25rem 3rem .25rem 0;
+  padding: 7px;
+  background: var(--lg3-lr);
+  background-attachment: fixed;
+  background-size: 25%;
+  background-position: 5rem center;
+  color: rgba(var(--white), .8);
+}
+
+.profile-wrap .mini-stick .mini .image {
+  position: sticky;
+  top: 0rem;
+  width: 9rem;
+  height: 13rem;
+  margin: 1rem 1rem 1.5rem 0;
+  border: 2px solid rgb(var(--white));
+  -border-radius: 4rem 4rem 0 0/ 6rem 6rem 0 0;
+  -webkit-border-radius: 4.5rem 4.5rem 0 0/ 9rem 9rem 0 0;
+  background-image: url('https://64.media.tumblr.com/553b25a0e6b8373585c134fe610c6413/tumblr_inline_oxtqfxFwCx1uqrvps_540.gif');
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 0 4px rgb(var(--white));
+  position: relative;
+}
+.profile-wrap .mini-stick .mini .image::before {
+  content: '';
+  position: absolute;
+  bottom: .75rem;
+  left: -.6rem;
+  width: 10.1rem;
+  height: 2rem;
+  background: var(--clear);
+  border: 2px solid rgb(var(--white));
+  border-top: 2px solid var(--clear);
+  border-radius: 5rem / 1rem;
+  transform: rotate(-10deg);
+}
+.profile-wrap .mini-stick .mini .image::after {
+  content: '';
+  position: absolute;
+  bottom: .75rem;
+  left: -.75rem;
+  width: 10.1rem;
+  height: 2rem;
+  background: var(--clear);
+  border: 2px solid rgb(var(--white));
+  border-top: 2px solid var(--clear);
+  border-radius: 5rem / 1rem;
+  transform: rotate(10deg);
+}
+
+.profile-wrap .stuff {
+  grid-area: stuff;
+  display: none;
+  background: var(--lg2);
+  background-attachment: fixed;
+  padding: 1rem 0 1rem 1rem;
+  border: 2px solid rgb(var(--white));
+  border-top: 0px;
+  border-radius: 0 0 0 1rem;
+  -webkit-border-radius: 0 0 0 1rem;
+  position: relative;
+}
+.profile-wrap .stuff::before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 12rem;
+  height: 1rem;
+  background: var(--clear);
+  border-top: 2px solid rgb(var(--white));
+}
+
+.profile-wrap .post {
+  grid-area: post;
+  background: var(--lg2);
+  background-attachment: fixed;
+  padding: 3rem;
+  border: 2px solid rgb(var(--white));
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  position: relative;
+}
+.profile-wrap .post post {
+  display: block;
+  margin: auto;
+  max-width: 10ch;
+}
+.profile-wrap .post b {
+  color: rgb(var(--teal));
+}
+
+@media { 
+    width: 0px;
+  
+
+  
+}
+</style>
+
+<script>
+ body {
+  padding: 0px;
+  margin: 0px;
+  background: rgb(var(--maroon));
+  font: var(--sans-body);
+  letter-spacing: var(--sans-body-sp);
+  
+  /*FONTS*/
+  --serif: 'input-serif';
+  --serif-caps: 200 .55rem/1 var(--serif);
+  --serif-caps-sp: 1.5px;
+  --sans: 'input-sans';
+  --sans-body: 400 .8125rem/1.8 var(--sans);
+  --sans-body-sp: .5px;
+  --sans-display: 900 2.5rem/1 var(--display);
+  --sans-display-sp: 1px;
+  --sans-caps: 300 .7rem/1.5 var(--sans);
+  --sans-caps-sp: 1px;
+  --display: 'ethnocentric';
+  
+  /*COLORS*/
+  --clear: rgba(255, 255, 255, 0);
+  --white: 254, 253, 250; /*FEFDFA*/
+  --black: 10, 2, 0; /*0A0200*/
+  --maroon: 32, 3, 0; /*200300*/
+  --purple: 76, 61, 63; /*4C3D3F*/
+  --dark-purple: 48, 39, 40; /*302728*/
+  --teal: 0, 60, 71; /*003C47*/
+  --green: 121, 134, 103; /*798667*/
+  --olive: 56, 45, 9; /*382D09*/
+  --rust: 128, 69, 50; /*804532*/
+  --gold: 175, 136, 88; /*AF8858*/
+  
+  /*GRADIENTS*/
+  
+  /*IMAGES*/
+  --bg1: url('https://images.unsplash.com/photo-1462332420958-a05d1e002413');
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+a { text-decoration: none; }
+
+
+
+.group-1 {
+  --lg1: linear-gradient(to bottom, rgba(var(--gold), .5), rgba(var(--maroon), .5));
+  --lg2: linear-gradient(to bottom, rgba(var(--white), .5), rgba(var(--gold), .5));
+  --lg3: radial-gradient(circle at top left, rgb(var(--rust)), rgb(var(--teal)));
+  --lg3-lr: linear-gradient(to right, rgb(var(--rust)), rgb(var(--teal)));
+}
+
+
+.profile-wrap {
+  width: calc(100% - 20vw);
+  min-height: 100px;
+  margin: 2rem auto;
+  padding: 3rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  background: var(--lg1), var(--bg1);
+  background-size: cover;
+  background-position: center;
+  box-shadow:
+    5px 5px 10px rgb(var(--black));
+  display: grid;
+  grid-template-columns: 12rem 1fr;
+  grid-template-rows: auto auto auto auto;
+  grid-template-areas: 
+    '..... name'
+    'mini post'
+    'stuff stuff'
+    '..... pinfo';
+}
+
+.profile-wrap .name {
+  grid-area: name;
+  margin-bottom: 3rem;
+  text-align: center;
+  font: var(--sans-display);
+  letter-spacing: var(--sans-display-sp);
+  text-transform: uppercase;
+  text-stroke: 1px rgba(var(--white), .75);
+  -webkit-text-stroke: 1px rgba(var(--white), .75);
+  color: var(--clear);
+  background: var(--lg3);
+  -webkit-background-clip: text;
+}
+
+.profile-wrap .post-info {
+  grid-area: pinfo;
+  margin: 3rem 0 0 0;
+  text-align: center;
+  font: var(--serif-caps);
+  letter-spacing: var(--serif-caps-sp);
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile-wrap .post-info span {
+  padding: 7px;
+  margin: .25rem;
+  background: var(--lg3-lr);
+  background-attachment: fixed;
+  background-size: 75%;
+  background-position: center right;
+  color: rgba(var(--white), .8);
+}
+.profile-wrap .post-info i {
+  display: inline-block;
+  padding: 5px;
+  margin: .25rem;
+  background: var(--lg3-lr);
+  background-attachment: fixed;
+  background-size: 75%;
+  background-position: center right;
+  color: rgba(var(--white), .8);
+  font-size: .8rem;
+}
+
+.profile-wrap .mini-stick {
+  grid-area: mini;
+  position: relative;
+}
+
+.profile-wrap .mini-stick .mini {
+  position: sticky;
+  top: 2rem;
+  font: var(--serif-caps);
+  letter-spacing: var(--serif-caps-sp);
+  text-transform: uppercase;
+}
+.profile-wrap .mini-stick .mini span {
+  display: block;
+  width: fit-content;
+  width: -moz-fit-content;
+  margin: .25rem 3rem .25rem 0;
+  padding: 7px;
+  background: var(--lg3-lr);
+  background-attachment: fixed;
+  background-size: 25%;
+  background-position: 5rem center;
+  color: rgba(var(--white), .8);
+}
+
+.profile-wrap .mini-stick .mini .image {
+  position: sticky;
+  top: 0rem;
+  width: 9rem;
+  height: 13rem;
+  margin: 1rem 1rem 1.5rem 0;
+  border: 2px solid rgb(var(--white));
+  -border-radius: 4rem 4rem 0 0/ 6rem 6rem 0 0;
+  -webkit-border-radius: 4.5rem 4.5rem 0 0/ 9rem 9rem 0 0;
+  background-image: url('https://64.media.tumblr.com/553b25a0e6b8373585c134fe610c6413/tumblr_inline_oxtqfxFwCx1uqrvps_540.gif');
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 0 4px rgb(var(--white));
+  position: relative;
+}
+.profile-wrap .mini-stick .mini .image::before {
+  content: '';
+  position: absolute;
+  bottom: .75rem;
+  left: -.6rem;
+  width: 10.1rem;
+  height: 2rem;
+  background: var(--clear);
+  border: 2px solid rgb(var(--white));
+  border-top: 2px solid var(--clear);
+  border-radius: 5rem / 1rem;
+  transform: rotate(-10deg);
+}
+.profile-wrap .mini-stick .mini .image::after {
+  content: '';
+  position: absolute;
+  bottom: .75rem;
+  left: -.75rem;
+  width: 10.1rem;
+  height: 2rem;
+  background: var(--clear);
+  border: 2px solid rgb(var(--white));
+  border-top: 2px solid var(--clear);
+  border-radius: 5rem / 1rem;
+  transform: rotate(10deg);
+}
+
+.profile-wrap .stuff {
+  grid-area: stuff;
+  display: none;
+  background: var(--lg2);
+  background-attachment: fixed;
+  padding: 1rem 0 1rem 1rem;
+  border: 2px solid rgb(var(--white));
+  border-top: 0px;
+  border-radius: 0 0 0 1rem;
+  -webkit-border-radius: 0 0 0 1rem;
+  position: relative;
+}
+.profile-wrap .stuff::before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 12rem;
+  height: 1rem;
+  background: var(--clear);
+  border-top: 2px solid rgb(var(--white));
+}
+
+.profile-wrap .post {
+  grid-area: post;
+  background: var(--lg2);
+  background-attachment: fixed;
+  padding: 3rem;
+  border: 2px solid rgb(var(--white));
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  position: relative;
+}
+.profile-wrap .post post {
+  display: block;
+  margin: auto;
+  max-width: 55ch;
+}
+.profile-wrap .post b {
+  color: rgb(var(--teal));
+}
+
+
+
+@media (max-width: -800px) { 
+  
+}
+</script>
